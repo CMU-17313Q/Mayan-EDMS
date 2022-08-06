@@ -649,3 +649,11 @@ a i {
     padding-left: 0px;
     padding-right: 0px;
 }
+
+.btn-default {
+    background-color: #1a242f;
+}
+
+.panel-footer {
+    background-color: #1a242f;
+}
