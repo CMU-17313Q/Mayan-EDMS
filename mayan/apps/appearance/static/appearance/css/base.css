@@ -650,10 +650,12 @@ a i {
     padding-right: 0px;
 }
 
+/*Overriding search button background style*/
 .btn-default {
     background-color: #1a242f;
 }
 
+/*Overriding dashboard link box background style*/
 .panel-footer {
     background-color: #1a242f;
 }
