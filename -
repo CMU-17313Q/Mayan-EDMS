@@ -1,0 +1,1909 @@
+[33mcommit 27972ab9ba1ae6ba2f1ca45216e6f9667aac55d7[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Rohan Padhye <rohanpadhye@cmu.edu>
+Date:   Tue Nov 9 17:45:32 2021 -0500
+
+    Requirements: Fix jsonschema again
+
+[33mcommit 12c97a98f4c90aefad03b4d3213b594947473680[m
+Author: Rohan Padhye <rohanpadhye@cmu.edu>
+Date:   Tue Nov 9 17:08:24 2021 -0500
+
+    Pin jsonschema version to avoid swagger bugs
+    
+    See 486a798c7
+
+[33mcommit f656b2a920f6c4c5bcfabc62ce8a9e64a403f5b2[m
+Author: Rohan Padhye <rohanpadhye@gmail.com>
+Date:   Thu Sep 16 18:30:35 2021 -0400
+
+    README: Add build badge
+
+[33mcommit 31fb4219c72d4a09d31911c499b2bad528eaa1bc[m
+Author: Rohan Padhye <rohanpadhye@cmu.edu>
+Date:   Wed Sep 15 17:59:07 2021 -0400
+
+    CI
+
+[33mcommit 99db57fc5cbede21ca71dca984c5506cca2b5398[m
+Author: Rohan Padhye <rohanpadhye@cmu.edu>
+Date:   Tue Aug 24 17:19:13 2021 -0400
+
+    Add expect script for programattic credential management
+
+[33mcommit d1394c1448a1b3dc068cc186b81d604cfd4cf93f[m
+Merge: f1d147d99b 1a1b00ca29
+Author: Rohan Padhye <rohanpadhye@cmu.edu>
+Date:   Tue Aug 24 12:56:50 2021 -0400
+
+    Merge CMU-313 Fall 2020 with Mayan v4.0.7
+
+[33mcommit f1d147d99bc8647c419af8f3bd0a2cff729d5c23[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Fri Jun 11 05:49:59 2021 -0400
+
+    Update release notes
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 542ed0cf92f8a38a3860649ea63149a9959003ad[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Fri Jun 11 05:49:22 2021 -0400
+
+    Update changelog and release notes
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 2e344b9fd26ef80f4492e5a46b0996a2dea03e5a[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Fri Jun 11 05:49:09 2021 -0400
+
+    Bump version to 4.0.7
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit fe18b2d324a1028f6d044c342cfd089ebdd85de6[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Fri Jun 11 05:40:29 2021 -0400
+
+    Update changelog
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit d3d2885e94b82f16e5f39a9ea53be239c5aab1c6[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Fri Jun 11 05:40:12 2021 -0400
+
+    Clean up style warnings
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 45af089b57d46c6f7648e0d316f90c103ca37a70[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Fri Jun 11 05:38:18 2021 -0400
+
+    Fix `CELERY_MAX_TASKS_PER_CHILD_ARGUMENT` typo
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 56393e4a4b0154895edcb0d21b7c888b85811739[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Fri Jun 11 05:37:58 2021 -0400
+
+    Unify release note exporters
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 5bef971f5da99376aa665265d49740db022b3c55[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Thu Jun 10 11:47:11 2021 -0400
+
+    Update build string
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 4e17921428dc14b9eac05746c7d496870615f452[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Thu Jun 10 11:44:09 2021 -0400
+
+    Bump version to 4.0.6
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 5409cf021698ce8de7990adbcaa0e45dcd693d7b[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Thu Jun 10 11:42:28 2021 -0400
+
+    Update release notes and changelog
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit ced05d62a8d8b4a2effe29fdaf5826e11560fbe3[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Wed Jun 9 20:19:09 2021 -0400
+
+    Use different environment for child limits
+    
+    Update CELERY_MAX_MEMORY_PER_CHILD and CELERY_TASKS_MEMORY_PER_CHILD
+    to use a separate argument variable, like CELERY_CONCURRENCY.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit eb51dc9708766f18ee0dee71aa2cdcc8b78690f6[m
+Merge: 9ff7d403e0 6ec6f6eaaa
+Author: Roberto Rosario <roberto.rosario.gonzalez@gmail.com>
+Date:   Thu Jun 10 00:00:55 2021 +0000
+
+    Merge branch 'issues-998/fix-celery-argument-names' into 'master'
+    
+    Fix celery argument names in supervisord template
+    
+    Closes #998
+    
+    See merge request mayan-edms/mayan-edms!93
+
+[33mcommit 6ec6f6eaaaaa349d59c7f062c5769b5eb3169b85[m
+Author: Johannes Kunde <johannes.kunde@gmail.com>
+Date:   Wed Jun 9 16:15:27 2021 +0200
+
+    Fix celery argument names in supervisord template
+    
+    - set correct attribute names max-tasks-per-child and
+      max-memory-per-child when starting celery workers
+    - this closes #998
+    
+    Signed-off-by: Johannes Kunde <johannes.kunde@gmail.com>
+
+[33mcommit 9ff7d403e0a88d419154716bcfc7613c526cf94b[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue Jun 8 23:50:52 2021 -0400
+
+    Update build string
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit eb76f4dc25269dd349bf944614249a835de5325c[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue Jun 8 23:48:33 2021 -0400
+
+    Fix the major Python release target
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 1233269eaad5da33ca06d8d0062a6f818d288eb9[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue Jun 8 23:45:24 2021 -0400
+
+    Minor template cleanups
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit c6083c279179c7a478d9071093c427fe8ad4da93[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue Jun 8 23:44:26 2021 -0400
+
+    Move worker defaults to the build config file
+    
+    Avoid having to setup a working development environment in order
+    to build the documentation.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 80d37b34fd40267808276e7cd1c69b6b6d1b9308[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue Jun 8 02:40:32 2021 -0400
+
+    Update build string
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit c7e23427047c664fd88d3cf2de75aa841acd3c74[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue Jun 8 02:39:36 2021 -0400
+
+    Bump version to 4.0.5
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit a3c8005c30f08831d86348d04339b9515ccb2f49[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue Jun 8 02:38:38 2021 -0400
+
+    Update release notes and changelog
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 027620b8992655a0c35f66e21efd72aea47a30ba[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue Jun 8 02:19:39 2021 -0400
+
+    Document file and version page image updates
+    
+    - Improve document version page base image cache invalidation on source
+      image transformation updates.
+    - Optimize transformation list generation by replacing several loops with
+      list extensions.
+    - Avoid using the source content transformations when calculating the
+      document version transformation list hash. This cause duplicated document
+      version page transformation in some cases. Closes GitLab issue #996.
+      Thanks to Reinhard Ernst (@reinhardernst) for the report and debug
+      information.
+    - Improve document version page image API URL hash uniqueness generation.
+      Ensure browsers do not use a cached document version page image when
+      the transformations of the source object of the version are updated.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 24ca43c7b0b38862b792d5e62663adad16faee1d[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Mon Jun 7 23:07:22 2021 -0400
+
+    Fix metadata form error on missing required value
+    
+    Fix ``KeyError`` exception when required metadata is missing.
+    Closes GitLab issue #997. Thanks to Raimar Sandner (@PiQuer) for the
+    report and debug information.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 6a7f17c5ed69320e924c8a1cbb82f69746e0aca6[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Mon Jun 7 22:35:03 2021 -0400
+
+    Workflow runtime proxy update
+    
+    Exclude trashed documents from the workflow runtime proxy
+    document count.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit ebd3a5eb8b7d251966892427c3145b146a1ff499[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Mon Jun 7 12:19:41 2021 -0400
+
+    Improve Docker environment variables chapter
+    
+    Include missing variables and automate displaying the
+    default values of several. Organize variables by topic.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 10fdab7b3ba8ba0092e73c0b79ec8062425536be[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Mon Jun 7 12:18:06 2021 -0400
+
+    Improve platform templates markup
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit a6ec30bb1b1349cacd58035b4755534ec28b76b4[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Mon Jun 7 10:55:32 2021 -0400
+
+    Add commented Docker compose database port entry
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit c703b731bdcfa808050d9b284c30b40f7e23f1bf[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sun Jun 6 22:29:12 2021 -0400
+
+    Add support for Celery's max memory and tasks
+    
+    Support --max-memory-per-child and --max-tasks-per-child using
+    the environment variables `MAYAN_WORKER_X_MAX_MEMORY_PER_CHILD`
+    and `MAYAN_WORKER_X_MAX_TASKS_PER_CHILD`.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit c5710d17ef3efbc3620fb0ccc551e15366c04f86[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sun Jun 6 08:37:16 2021 -0400
+
+    Convert upgrade instructions into a partial
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit bf9a5a2bd36af97934875ab1a7ddfaac28364bd1[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sat Jun 5 04:06:38 2021 -0400
+
+    Update build string
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 7ad36833354bc81a00c29e395324955d7edb1f2c[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sat Jun 5 04:05:47 2021 -0400
+
+    Bump version to 4.0.4
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit e5fb90caa020524e591a8b1f48c7da3fd0e9dcb7[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sat Jun 5 04:05:30 2021 -0400
+
+    Remove ununsed import
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 130f2d18dc0afdbb3929ea903812a8d54abf9eb2[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sat Jun 5 04:02:10 2021 -0400
+
+    Update translation files
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit c049b4f84680f91425f5aa6dbe4607c211bdacd6[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sat Jun 5 02:40:50 2021 -0400
+
+    Add release notes
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 0abd6c0a6fcea8076f98be462e348d3bd3611719[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sat Jun 5 02:35:30 2021 -0400
+
+    Remove event decorator database transaction
+    
+    Solves workflows not being launched on document creation. Closes
+    GitLab issue #976 and issue #990, thanks to users Megamorf (@megamorf),
+    A F (@adzzzz) for the reports and debug information.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit f42967556949d3d07b39ffb5af92d0824b8d1162[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sat Jun 5 02:47:44 2021 -0400
+
+    Move the medium workflow queue to the B worker
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit fda7727833ee68aadbb1d07af2a3eca6f6c09a9c[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sat Jun 5 02:47:23 2021 -0400
+
+    Move the file metadata queue to the D worker
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 29d8b244ae476e78ddfe27bf31997072c498a8e2[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sat Jun 5 02:47:05 2021 -0400
+
+    Add workflow auto launch test
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 895ffd8a2ca3e584654e77c6d14d4b2624f7eb7b[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Thu Jun 3 06:01:33 2021 -0400
+
+    Update build string
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 65d18bca1f72d7e94c566940de8140e3788d0dd1[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Thu Jun 3 06:00:42 2021 -0400
+
+    Bump version to 4.0.3
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit eb9ef1c2266a32d867b1d79cdc6586d7353529a6[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Thu Jun 3 05:56:41 2021 -0400
+
+    Update release notes and changelog
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 36b0f59f54d0ca5a2f507097cad213dadd4d67ab[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Thu Jun 3 05:14:15 2021 -0400
+
+    Update REST API examples for version 4 of the API
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 9e0a9e6c4708738ebe22e8df56bf2514480ef2c3[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Thu Jun 3 03:47:54 2021 -0400
+
+    Update translation files
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 166027fd99fd812f3ee20c67a3f7c3d0418c07c6[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Thu Jun 3 02:53:40 2021 -0400
+
+    Support default template worker concurrency value
+    
+    Update Docker entrypoint template to support default worker
+    concurrency values. Now correctly passes the default concurrency
+    value of the D class worker.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit fbbe884ee134e2751ce18088fb63ca9497dd6636[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Wed Jun 2 14:56:28 2021 -0400
+
+    Update changelog
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 43708c3a541fabc58e037fdc029f744d745b7c61[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Wed Jun 2 14:51:49 2021 -0400
+
+    Lock manager updates
+    
+    - Rename get_instance() method to get_backend(). This method
+      returns a class and not an instance.
+    - Add management command tests.
+    - Add optional _initialization method for backends.
+    - Update the RedisLock backend to use a connection pool.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit e519fcd58e3dce54f8ab052c6a574713efb50258[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Wed Jun 2 14:49:08 2021 -0400
+
+    Makefile updates
+    
+    - Unify Docker test with staging targets.
+    - Replace underscore in target names with hyphen for uniformity.
+    - Add Redis Docker test targets.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 6e9ef14e99d00b77b5fb0bd0a4e08d69024ba8e0[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue Jun 1 04:08:55 2021 -0400
+
+    Fix typo
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit e89fd5357c5caf44d4a0f6d882bd9164be033ee2[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue Jun 1 04:08:27 2021 -0400
+
+    Update API example for version 4.0 API
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 8d7fa39d8b0e250d37c8076f7f5bd3d57838187a[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sun May 30 04:16:22 2021 -0400
+
+    Fix OCR delete link permission
+    
+    Update the permission required for the OCR content delete
+    link to match the permission required for the OCR content
+    delete view. GitLab issue #954. Thanks to Ilya Pavlov
+    (@spirkaa) for the report.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 06b393a31383019d5822c39f7e8e0b1520e35265[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sun May 30 04:12:30 2021 -0400
+
+    Fix document parsed content error link permission
+    
+    Update the permission required for the document content error list
+    link to match the permission required for the document parsed
+    content error list view. GitLab issue #954. Thanks to Ilya Pavlov
+    (@spirkaa) for the report.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit d7985a24e75da8d8c1c631d711ae70746b14dc4e[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sun May 30 04:05:13 2021 -0400
+
+    Add explicit Docker logout repository in CI jobs
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit e43a60f76dd773a6ff6302a27c38d68446d258a4[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sun May 30 03:59:25 2021 -0400
+
+    Rename OCR tests cases and mixins for clarity
+    
+    Prefix `DocumentVersion` to the relevant classes to differentiate
+    them from `Document` tests.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit a30237c3b764bcefa59ee6506ba81789e812b977[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sun May 30 03:55:53 2021 -0400
+
+    Speed up OCR test views
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit c6d5e879eeb594e3d6a79c75d086c6114ea6e195[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sun May 30 03:49:18 2021 -0400
+
+    Update dependency versions
+    
+    - django-solo from version 1.1.3 to 1.1.5.
+    - python-magic from version 0.4.15 to 0.4.22
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 822d282f3d3c95fcf59ebb81b308759b38aa4454[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sat May 29 03:22:47 2021 -0400
+
+    Fix post theme deletion related field error
+    
+    Fix error `django.contrib.auth.models.User.theme_settings.
+    RelatedObjectDoesNotExist` after deleting a theme already
+    assigned to a user. Closes GitLab issue #972. Thanks to Niklas
+    Maurer (@nmaurer) for the report.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 3103b03270f6563b0101dd76415d008f8ed1f2e1[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sun May 30 03:38:36 2021 -0400
+
+    Add duplicate document scan view tests
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 3147307bd47c24f1ffe5fd45b8d7645ed10bee25[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sat May 29 08:42:47 2021 -0400
+
+    Add note about Docker implentations
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 1701f68c6c49c7d961eeeadcc010ab13389c107b[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sat May 29 08:39:15 2021 -0400
+
+    Update requirements
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit a855ac737e26adf1ab433b34756d5767636e1dd0[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue May 25 02:33:56 2021 -0400
+
+    Update build string
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit aff7b4636ddda3ce82cd4ddee69f2b1d15efe8f6[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue May 25 02:32:52 2021 -0400
+
+    Update translation files
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 80ffc08526e63c33ed64adcf9fa883aab4d0dbaa[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue May 25 02:28:39 2021 -0400
+
+    Add example deploy script
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 135b9d7b11bc2d8dcef0aa259eabc2b9f21e7fcb[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue May 25 02:05:46 2021 -0400
+
+    Bump version to 4.0.2
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 3d330ad6a536b81131682bb92a0900427bfb1f44[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue May 25 02:04:37 2021 -0400
+
+    Add cabinet migration for the changes options
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit bba5af64ba62574fbf247b79a504f6904a898c48[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue May 25 02:01:45 2021 -0400
+
+    Improve advanced deployment instructions
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit f0ab48edf7e9de9af5b96387359a8ccb2539b716[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue May 25 01:54:44 2021 -0400
+
+    Update the format of the apt confirmation
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit b92c604f8d732ea33dfad799258f91b8c06703cc[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue May 25 01:38:32 2021 -0400
+
+    Update release notes and changelog
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 128a2a7ac0f283b4e8bf9d96b68d0e5dac25fd8a[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue May 25 01:21:30 2021 -0400
+
+    Add ordering to cabinets
+    
+    Closes GitLab issue #986. Thanks to Hanno Zulla (@hzulla) for
+    the report.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 62698ddf4a8cc60b585d17df997803acee58df91[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue May 25 01:19:04 2021 -0400
+
+    Update django-mptt from version 0.11.0 to 0.12.0
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 571cfa85b2ed08abc3f7e2f3884a7df7f182f19c[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue May 25 00:58:53 2021 -0400
+
+    Update PIP from version 21.0.1 to 21.1.1
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 373d8f815f9f6630b4b78d1c977f85d4d3f8d3dd[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue May 25 00:31:15 2021 -0400
+
+    Update changelog
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 0a30cd5efb2acca4bca8d6f8300d934c3b83d795[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue May 25 00:31:01 2021 -0400
+
+    Minor deployment step update
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 0a891ab6805866e9eab26eac6d4f5359f1a8d9ae[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue May 25 00:30:23 2021 -0400
+
+    Fix token authentication for all use cases
+    
+    Ensure the API authentication has completed before doing initial
+    filtering. Fixes API views returning 404 errors when using
+    token authentication.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit cd6ed1aedfa6a47bdcf3b85330c6cc0336b6283d[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Mon May 24 18:48:23 2021 -0400
+
+    Style fixes
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 9a0a895186fa4e50495d8aa2ab843a39d269d187[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Mon May 24 18:47:17 2021 -0400
+
+    Update Django REST framework to version 3.11.2
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 6ebfeed7f0df9d18348567148cf2904dddb9bb52[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Mon May 24 01:25:11 2021 -0400
+
+    Update translation files
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 44b8c43ae0719f4ad139faede238716c1d0dc8f6[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Mon May 24 00:47:52 2021 -0400
+
+    Fix documentation config entry reference
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit c9e46d88f5cb58f9c94320fe32934a844a2decc0[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sun May 23 08:28:19 2021 -0400
+
+    Correct user_settings folder creation step
+    
+    Closes GitLab issue #984. Thanks to Matthias Löblich (@startmat)
+    for the report.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 2db30dae960f1f6224832b285503a1f4d3240af8[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sun May 23 08:24:21 2021 -0400
+
+    Capitalize MIME as it is an abbreviation
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit b2be2a482839e958a44f5842a6e36c114b4beced[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sun May 23 08:13:33 2021 -0400
+
+    Improve source strings
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit bfb052a731c350348c86d15d44960a9b3aaf2265[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sun May 23 05:06:58 2021 -0400
+
+    Update translation files
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 8b51f88261d359052ad5090741e76fb703612418[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sun May 23 03:45:37 2021 -0400
+
+    Update release notes
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 47f2588bcd31dc0ed8d85a3817a98c70d10dd206[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sun May 23 03:45:18 2021 -0400
+
+    Improve upgrade process language
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 7178c1023592d6235f4e4abad7b8ebfaeb42576c[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sun May 23 03:44:36 2021 -0400
+
+    Messaging app updates
+    
+    - Add links to set messages as unread.
+    - Automatically set messages as read upon accessing them. GitLab issue #981,
+      thanks to Ilya Pavlov (@spirkaa) for the report.
+    - Disable links to mark messages as read or unread based on the state of
+      the message.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit f18c5adcdb6db64216fb6aaa2dc31949966a3dc8[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sun May 23 03:40:26 2021 -0400
+
+    Display detail view errors as messages
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit f832436459347919f487a9d1c04aeb1c8a20249a[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sun May 23 03:38:28 2021 -0400
+
+    Fix action menu disabled links appearance
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 808701d7b32b84b58972e2d55d172531db693d4a[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sun May 23 03:37:10 2021 -0400
+
+    Action dropdown template updates
+    
+    - Move dropdown template partial to the navigation app.
+    - Remove unused {{ link_extra_classes }}.
+    - Remove obsolete dropdown HTML markup.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 9ea849d4888457caedcbe3e6dbc48749a016cf4d[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sun May 23 00:53:53 2021 -0400
+
+    Clarify Redis and Lock manager upgrade steps
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 4f60e7faf19176e06d79fed3346a0204605ceaef[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Fri May 21 04:58:28 2021 -0400
+
+    Add note about bulk download removal
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 482bfc3e9f74f89ac769942f8d0c92b16343063e[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Fri May 21 04:55:06 2021 -0400
+
+    Fix typo
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 72d30cf751bb3075e0555e9eacbccb54b141ed30[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Fri May 21 04:38:54 2021 -0400
+
+    Add ntoe of removal of filename extension removal
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 78dbabedeaba48cd981b1cbf36b0d477605cd0c5[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Thu May 20 03:42:00 2021 -0400
+
+    Update build string
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit e0ec239e66140b02b8362b6eeff4a0dd05ec5a97[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Thu May 20 03:40:40 2021 -0400
+
+    Bump version to 4.0.1
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit f5f54e0ccb66dabcb29817daff8d6a3f8cc44695[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Thu May 20 03:40:11 2021 -0400
+
+    Style fix
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 4b5c633cb79eb7e18daa00aaa9bcb753e0e8a374[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Thu May 20 03:39:23 2021 -0400
+
+    Update release notes
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 1fdd078f3bdd33dcd3db554ca0b9c820db561d64[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Thu May 20 03:32:40 2021 -0400
+
+    Improve documents app setting migrations
+    
+    Allow migration of the settings `DOCUMENTS_STORAGE_BACKEND` and
+    `DOCUMENTS_STORAGE_BACKEND_ARGUMENTS` for more situations.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit febe7ea27349e962b987b6959980a09e010d2b46[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Thu May 20 02:24:51 2021 -0400
+
+    Add version 4.0 troubleshooting section
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit ed1665f4b6e269e624eaf06b1ae5b22324b740c6[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Thu May 20 02:00:20 2021 -0400
+
+    Fix Docker environment variables documentation
+    
+    Update chapter regarding worker concurrency.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 0d7aa448ba376cbb949652ab28ffb9fdfd3c6c7f[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Thu May 20 01:53:30 2021 -0400
+
+    Fix group and user setup link
+    
+    Fix both links conditional disable not working as expected.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 2fbe04c7b7b09f21a01cc0feb984d9cc1a757c21[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Wed May 19 09:48:30 2021 -0400
+
+    Fix group setup link not displaying
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 69b3292e80fe067ebf5d46c4c9ceb1d44962e07a[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Wed May 19 03:45:33 2021 -0400
+
+    Use same setting for all testing targets
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit ce23f1207005f2d66298e54decc0c6266c28f7ef[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Wed May 19 03:44:19 2021 -0400
+
+    Update release notes
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 475c3a0fb89730bd99c789595d0eb2cb764d6aa1[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Wed May 19 03:42:52 2021 -0400
+
+    Add ACL inheritance database typecasting support
+    
+    Add support for typecasting the values used to filter the ACL object
+    inherited fields. Required for objects that user generic foreign keys
+    with object_id fields that are not of numeric types.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 2db99a386a3b0865727ea05774fbf30b2b35561c[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Wed May 19 00:52:46 2021 -0400
+
+    Update Django to version 2.2.23
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 914cfbfa5f633cd851e1b274f5112e919740741f[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Wed May 19 00:01:05 2021 -0400
+
+    Update coverage and tox versions
+    
+    - coverage from 5.1 to 5.5.
+    - tox from 3.14.6 to 3.23.1.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 1ca3e08aa200c4fba0560cd76cc3d7014e7958a8[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue May 18 23:51:39 2021 -0400
+
+    Update build string
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 19e2f75071621a5831ad0843142173d14e0dd239[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue May 18 23:50:36 2021 -0400
+
+    Update translation files
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit b4b962b0620d96940e00f4daf2ba8b5f34eb4a6c[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue May 18 23:41:52 2021 -0400
+
+    Bump version to 4.0
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit c0b2717f6ea7bcdfa7f1e90c2ce76cc157ec0cef[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue May 18 23:18:48 2021 -0400
+
+    Update Docker stack file
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit b757e7b840ced6330f029b75e52a33336bde1c67[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue May 18 23:13:54 2021 -0400
+
+    Minor documenation type and feature reference
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 0340a962e966d0b7d9144c3a6e6b877bffa5a1a5[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue May 18 23:01:10 2021 -0400
+
+    Update "Libre Office" references to "LibreOffice"
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit ab32a17a6d49cd1d67861b1a4672e03090d21341[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue May 18 23:00:53 2021 -0400
+
+    Minor documentation fixes
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 8b5ba62ce1d9bbbe917f3ed359432546970ebede[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue May 18 22:46:33 2021 -0400
+
+    Update translation files
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit fbb3142521a0417dba048f6d70cb2968968eeffa[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue May 18 05:26:55 2021 -0400
+
+    Add the organizations app to the Transifex config
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit a1dab57dfd075fe1bf9044db9432445d2ddf30f3[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue May 18 05:24:21 2021 -0400
+
+    Add the organizations app
+    
+    This app handle sdetails that are specific to an organizations installation
+    of Mayan EDMS. The app has two settings: ``ORGANIZATIONS_INSTALLATION_URL``
+    which controls the URL of the installation. This URL is used when composing
+    the document link URL when sending document links via email. It is also used
+    to create the download link for exported document versions.
+    
+    If this setting is not specified, Mayan EDMS will try to obtain the URL
+    scheme, host, and port from the HTTP request itself. When running Mayan EDMS
+    behind proxy servers or load balancers this might not return accurate results
+    and will require an explicit value for the setting.
+    
+    The setting ``ORGANIZATIONS_URL_BASE_PATH`` replaces the previous setting
+    named ``COMMON_URL_BASE_PATH`` used when hosting Mayan EDMS in a path other
+    than the root path ('/') of the web server.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 9db568808256bc2c9a0cf84482fb3b180b895b6f[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue May 18 04:45:32 2021 -0400
+
+    Add more functionality to the URL class
+    
+    Use urllib.parse to support dissecting a URL or composing
+    one from elements.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 98385097216d8e4bf94114ab6f2998fe00c35c8d[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue May 18 02:40:31 2021 -0400
+
+    Update documentation
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 2b4c4e36d2c1fe053bbcd7c1fc7a2505372c5440[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Thu May 13 06:19:46 2021 -0400
+
+    Docker Compose file updates
+    
+    - Fix optional worker name arguments.
+    - Support configurable RabbitMQ image tag.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit d893165fd5860a8a15ee79b119a20f349555c81b[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Thu May 13 06:15:10 2021 -0400
+
+    Redactions updates
+    
+    - Fix redaction template.
+    - Fix redaction ACL support.
+    - Add redaction tests.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 5930b2894b6f70eb4985fb1070ef8939505c3aae[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Thu May 13 06:04:31 2021 -0400
+
+    Transformations updates
+    
+    - Avoid adding a transformation to a layer for which it was
+      not registered.
+    - Add LayerError exception.
+    - Make layer and transformation test reusable.
+    - Improve transformation tests to use the layer actions
+      permissions.
+    - Add layer create get tests to test the transformation
+      template if any.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit b134b1e12c5f5002c60998927872b37789f6f4a3[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue May 11 23:13:46 2021 -0400
+
+    Normalize MERC 8 numbering
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 9adb49b05310c2a1dcd8f7acbcd0074867ebaf29[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue May 11 23:11:04 2021 -0400
+
+    PEP8 style updates
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 3fbed4925e10d4c362d0033553395f1b4b4ea2f8[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Mon May 10 01:34:34 2021 -0400
+
+    Fix translation helper method names
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 409437c2cd590804ac7cfc67328b7a523a08600f[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Mon May 10 00:54:06 2021 -0400
+
+    Fix source string typo
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit d7009f60637119c0337b1883dd92020a291854a4[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Mon May 10 00:42:42 2021 -0400
+
+    Update translation files
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit cd86a695d93d9e389cdc42a2ff0540ca22698879[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Wed May 5 05:34:40 2021 -0400
+
+    Update release notes
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 17aed3c1889997fd63cf6d5dcefe07265c38e5ad[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Wed May 5 05:33:18 2021 -0400
+
+    Update translation files
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 5dbfe88b8a1aaa806f5f14d1f030d840dfa12ccd[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Wed May 5 04:56:23 2021 -0400
+
+    Improve explanation
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit a05c08ec7874eca4bbecebac62a4be1a11b7b6ac[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Wed May 5 04:55:14 2021 -0400
+
+    Fix source string typos
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit b15cd407d21464cafd3e95670f524f6203106789[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Wed May 5 02:55:04 2021 -0400
+
+    Set allowed hosts to all when using direct deploy
+    
+    This is required because Gunicorn serves content directly
+    without using a reverse proxy.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 01c688ab7fa2c084915838b33478eecaddbfcd78[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Wed May 5 02:54:48 2021 -0400
+
+    Remove extra comma
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit b13e65f277653fc8852d457b2903ea206203614c[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Wed May 5 02:54:27 2021 -0400
+
+    Add media root environment to deploy step
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit d55dbe1e133b612a13ab33532984c9f94120f8fa[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Wed May 5 01:36:01 2021 -0400
+
+    Ensure dynamic entrypoint is executable
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 71281e847d15780d9d8a65333bf6e6a3583762c7[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Wed May 5 01:35:15 2021 -0400
+
+    Add missing Gunicorn jitter variable
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 2119eb62b78f4d0802b9287f6920b83f8ca538be[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue May 4 17:13:46 2021 -0400
+
+    Update translation files
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit ba29f4dcd7e0e016f357f6616bc00c764bfa8fa6[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue May 4 04:37:37 2021 -0400
+
+    Fix Dockerfile typo
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit d4a7711327f3626753bb0aafb1ba963678fb3553[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue May 4 04:14:14 2021 -0400
+
+    Bump version to 4.0rc3
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit d74bc90a458a752ddbf6ebd2142948f2a4de4e09[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue May 4 04:13:00 2021 -0400
+
+    Update settings literals
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 6e8a2dd9bba3b0764cfb057caf533b64a6a496ec[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue May 4 04:11:19 2021 -0400
+
+    Documentation update
+    
+    - Update the initialsetup command to generate a config.yml file.
+    - Update deployment to use the config.yml and avoid repeated
+      entry of the settings in the command line.
+    - Use placeholder in more chapter instead of static values.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 4304be41debfb1be8ff10730734c7129a549cd57[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue May 4 04:07:48 2021 -0400
+
+    Platform template updates
+    
+    - Add copy-config-env target to copy the config.env values to
+      mayan/setting/literals.py to make them available at runtime.
+    - Convert the Docker entrypoint.sh file into a platform template.
+    - Rename supervisord_docker.tmpl to docker_supervisord.tmpl.
+    - Remove the Docker install script used for get.mayan-edms.com.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 6a20e40f5779c042f4fd2da57805bb9c7b593ff0[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue May 4 01:01:22 2021 -0400
+
+    Move workflows queue to worker c
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 8ff5bd975e46a8763c5122a4fed4c650faafd65b[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sat May 1 08:03:20 2021 -0400
+
+    Sort worker queues by name
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit e464f4a6164b3a46c60d5aedb2d556e97cbe0af9[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sat May 1 04:55:26 2021 -0400
+
+    Move the `sources` queue to a faster worker
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 0a9fd0478875fcdebba441ed45829b8565345d5c[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sat May 1 04:52:32 2021 -0400
+
+    Move the `uploads` queue to a faster worker
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 9a97f6501441e7836913ef6aeef4bdc471d4b7e7[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sat May 1 04:51:17 2021 -0400
+
+    Allow passing nice level to worker classes
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 33bd0ff4074f139493ae5b7e4e538a854101547d[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sat May 1 04:50:36 2021 -0400
+
+    Update worker strings in the supervisor template
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit f3adafe30f02ed8c9955158d596c30ae2074d655[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sat May 1 04:50:02 2021 -0400
+
+    Add missing import
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 308ed8b1f7a6ec07a9ef49e722653cabf4385c40[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sat May 1 04:49:34 2021 -0400
+
+    Rename variable to make is more explicit
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 90ba0bd687dd07b819749900dd11baef45456499[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sat May 1 04:48:21 2021 -0400
+
+    Support nice levels for the `run_worker` command
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit e124e6a244a97351d166ecc20fa4936100b323c1[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sat May 1 04:46:33 2021 -0400
+
+    Make the Supervisord configuration path a literal
+    
+    Add the config files `SUPERVISOR_CONFIGURATION_DIRECTORY` and
+    `SUPERVISOR_CONFIGURATION_FILENAME`. These are now used by the
+    Dockerfile and the documenation.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit bb7aa666c29db17f56f9528303feb2639b91c579[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sat May 1 04:45:31 2021 -0400
+
+    Add puntuation
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit ed065f79dea646b36f081134bfe7ad6320c9524c[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sat May 1 04:45:00 2021 -0400
+
+    Update Redis lock to be non blocking
+    
+    Instead of simulating a non blocking lock.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 551e3fd369a1a4d32ae0bc20164fbec53ba9cc63[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Fri Apr 30 04:15:51 2021 -0400
+
+    Fix tests
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit fe54162621365f40be447eb33e9b69229239a356[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Fri Apr 30 03:48:38 2021 -0400
+
+    Add a fourth class of worker
+    
+    Rebalance queues.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 66d5d4efb5a009624d3ad0442d7d155c51ddb9ea[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Fri Apr 30 03:43:52 2021 -0400
+
+    Detect and avoid duplicated queues
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit ac6f0f5fb3f23fd0653473629a6503d234f2e2ca[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Fri Apr 30 03:07:44 2021 -0400
+
+    Move test mixin classes to the mixin module
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 6671a928400e45008501c9634ea88f5d6ebd626b[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Thu Apr 29 21:36:38 2021 -0400
+
+    Update remaining apps to new event testing
+    
+    Remove support for `_test_event_object_name`. Tests must check for all
+    possible events that were created as a test artifact.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 2ecbcbd0d6f4e97a30449d6d2651e9780bd42d11[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Thu Apr 29 21:08:16 2021 -0400
+
+    Update appearance app to use the event decorator
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit e5c5186b1b730558d2e73d2d67db599703421272[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Thu Apr 29 21:01:40 2021 -0400
+
+    Update quota app to use the event decorator
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit f69b4453cfa27be6ac292bd27d3c2a6f12f9e631[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Thu Apr 29 06:18:46 2021 -0400
+
+    Code style cleanups
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 4f405f80ff226653c5b15a79fd41f2f968ccd87b[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Thu Apr 29 06:15:51 2021 -0400
+
+    Authentication updates
+    
+    - Move the logged in and logged out events to the authentication app.
+    - Add event asserts to the app tests.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 4a11a5f15c2ba7ebe53e14ac672a7b0d867c16ca[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Thu Apr 29 05:29:18 2021 -0400
+
+    Update class and view names for consistency
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 7fb541dfeaf21b35e95e72441f1f0998b7f46873[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Thu Apr 29 05:28:55 2021 -0400
+
+    Fix class name typo
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit f4049895eefc15b5e0f04846ebab2f41def23b63[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Thu Apr 29 05:26:53 2021 -0400
+
+    Refactor user management API
+    
+    - Add group user list, user add, and user remove views.
+    - Updated the user group list attribute to return a link
+      to a list of groups.
+    - Improve event commits and testing.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 6f8eed88b2788affeaf75c1a15cf3a9846ae17d8[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Wed Apr 28 03:07:50 2021 -0400
+
+    Enable document type link with ACL access
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit f35494b8ffda272421a8057fa3000b34febf0f8c[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Wed Apr 28 03:06:55 2021 -0400
+
+    Enable group, user links with at least ACL access
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 2641f7d90af2747cf3d81b91d7acaafe1e980555[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Wed Apr 28 00:40:32 2021 -0400
+
+    Exit program on broker or result backend error
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 958993d15dca06ae62538d0646819b7b97011cfd[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue Apr 27 09:45:19 2021 -0400
+
+    Improve scoped search error reporting
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit c683b1ae8b660bf7feb34ce99d9badfb6426bed2[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue Apr 27 09:18:08 2021 -0400
+
+    Support named scopes in search
+    
+    In addition to indexed or numeric scopes, support single or multi-letter
+    scopes.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 15d51383c7294d69ec585e56f7b949583c191884[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Mon Apr 26 03:18:22 2021 -0400
+
+    Cache partition file update
+    
+    - Index the cache partition file `hits` fields.
+    - Sort cache partition files for prune by hits and datetime.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 836eabfb985c17d7b799b199053cde960e771ca7[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Mon Apr 26 02:06:38 2021 -0400
+
+    Update document version export
+    
+    Update code to work the new cache partition file open context
+    manager.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 1416dc9abc60963a6cbe6233ebc1f27590c7d03c[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Mon Apr 26 02:05:32 2021 -0400
+
+    Cache pruning updates
+    
+    - Add incremental file index for failed prune attempts.
+    - Improve file open and closing locking to lock entire instance
+      and not just the method.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit a8f41654239f4f1688b2615f85926abd09d80647[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Mon Apr 26 02:04:27 2021 -0400
+
+    Add method acquire and release lock decorators
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 2757cb0007afd417fee2e6f28fa0bc1622b0ef93[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sun Apr 25 05:23:11 2021 -0400
+
+    File cache eviction refactor
+    
+    - Update file cache to use and LRU style eviction logic.
+    - Only prune caches during startup if their maximum size changed.
+    - Add detection of excessive cache pruning when cache size is too small for
+      the workload.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 3447fa8fa6beef21b62c6caeb9731fafbcca1ee0[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sun Apr 25 05:22:02 2021 -0400
+
+    Add model mixin to detect changed fields
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 448bc8242cf12b295b585288341ac7848a091840[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sun Apr 25 03:19:12 2021 -0400
+
+    Convert maximum prunt attempts into a setting
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit c664f1fa3376d7459a83c0ac03f6e933fb7e1ae9[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sat Apr 24 04:25:55 2021 -0400
+
+    Update translation files
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 9a5bd1e69957df0e7aaa2125d808e35b0b35b0c0[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sat Apr 24 02:50:54 2021 -0400
+
+    Silence Make file targets
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit d54cab32ae42cd4fdb6a76b157b5f862e894d186[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sat Apr 24 02:49:31 2021 -0400
+
+    Refactor migration documents 0057
+    
+    - Update code to do smart and conditional changes to the BTREE
+      index of the affected tables.
+    - Add conditional atomic RunPython operation for MySQL
+      compatility.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 0c7de83b3510e6e7cae767acb798c474ccc8ddec[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Thu Apr 22 07:20:02 2021 -0400
+
+    Remove database credentials from setting file
+    
+    These are handled by the make file target.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit cca1acafc96663adc74b10d28231546bbc835c69[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Thu Apr 22 07:19:40 2021 -0400
+
+    Add PostgreSQL backup and restore targets
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 05f43210ac81894cba07bff33f638cd3c40544f8[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Thu Apr 22 06:13:42 2021 -0400
+
+    Update config.env file
+    
+    - Increase version Python client versions.
+    - Update the Oracle database Docker image.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 760a501d94b1064c91f8ef686a1c260e26d3aaf3[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Thu Apr 22 06:04:40 2021 -0400
+
+    Make file updates
+    
+    - Use variables for test container names and volumes.
+    - Don't remove container and volumen when test ends.
+    - Set a MySQL root password to allow creating test databases.
+    - Add docs html target.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit f584ac1edb9e0a6f7519235b0293b0bd6e81368b[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Thu Apr 22 06:03:42 2021 -0400
+
+    Remove Docker testing and development settings
+    
+    These are now handled by the Makefile itself.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 687530118de7618323941aa6c1e0d86fba267b20[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Thu Apr 22 04:52:39 2021 -0400
+
+    Convert run_all entrypoint into a batch file
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 84a3f371e65c6097fc510b17d39d72b04ec6449c[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Thu Apr 22 04:51:48 2021 -0400
+
+    Don't render template if queues are provided
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit a06fb8943a3b3664540a91573bfde18906f2ddc4[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Wed Apr 21 08:22:23 2021 -0400
+
+    Makefile improvements
+    
+    - Consolidate targets.
+    - Update Docker targets new image changes.
+    - Use database values from config.env file.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 6998e2790c632ecd93c830fbf44776e17f5610e5[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Wed Apr 21 08:21:31 2021 -0400
+
+    PEP8 fixes
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 7e349bd3141e79f969497a90debf6207273f00b9[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Wed Apr 21 08:19:32 2021 -0400
+
+    Style update
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit b640ce0aa1b3c05466734f5a0590047692fd0913[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Wed Apr 21 08:00:25 2021 -0400
+
+    Bump version to 4.0rc2
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 0a097439abc5f05effb8fb2ab4304ec43807f1de[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Wed Apr 21 07:51:01 2021 -0400
+
+    Add conditional quoting and index removal
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 1dbaca0c875b64a0059eafa6c0d16e6cef5b6221[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Wed Apr 21 07:50:24 2021 -0400
+
+    Add RemoveIndexConditional class
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 1daf8d9518e4bbafabc78a0dd3b6b63e68c94c34[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Wed Apr 21 07:49:53 2021 -0400
+
+    Improve migration reversing
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit b1d985d26a41175bc031b4708eb2d0dafc69aba8[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Wed Apr 21 01:21:43 2021 -0400
+
+    Allow Celery to create its own management queues
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit f436c1b049832c00ace9a93c51c98533163a60d7[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Wed Apr 21 01:21:12 2021 -0400
+
+    Fix queue variable name
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 44c2cd9fba2cb05bfb11ef1f99c7abaa099de459[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue Apr 20 03:49:09 2021 -0400
+
+    Update the development docker settings
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit f3211892d852f0b544fb843582360089954ae505[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue Apr 20 03:47:13 2021 -0400
+
+    Add error checking to the platform app
+    
+    Add error checking to the management and the
+    `worker_queues` template.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 11edcd4518e07dd0385eb58fbee4df834d125129[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue Apr 20 03:46:29 2021 -0400
+
+    Rebalance some queues among workers
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit c7fe42bffa9fc9fdea406f00c19478a5a3450147[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue Apr 20 03:45:50 2021 -0400
+
+    Remove the default queue
+    
+    All tasks must now be explicitly assigned to an app defined
+    queue.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 7f2ce59cae6fcf12b6f8c17d2a3462ceabff3302[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue Apr 20 03:13:22 2021 -0400
+
+    Fix typo
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 7ff4e0ad407caed5b2ead2d3da7d538a97afb684[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Tue Apr 20 03:12:28 2021 -0400
+
+    Remove last duplicates manager .add() method
+    
+    Remove last point causing race conditions.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit da6ce20ece43d4b59b8047eb859b1452e7d4ae62[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Mon Apr 19 05:54:43 2021 -0400
+
+    Fix Dockerfile comment format
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 531a6d3451fe8742ae3075d59da96c59d71036a5[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Mon Apr 19 05:50:05 2021 -0400
+
+    Optimize duplicate scan
+    
+    Remove iteration and use inline queries instead.
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit 857754c867b665369214153fd3cb44fa38049afe[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Mon Apr 19 05:49:16 2021 -0400
+
+    Sort import
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit ca37e32ca6be746b207dc82b148a718d7b51f8f2[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Mon Apr 19 05:49:03 2021 -0400
+
+    Fix workflow actions tests
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
+
+[33mcommit ef3ce2b8f1bf274d9cdaa9d8d3159b729a716855[m
+Author: Roberto Rosario <roberto.rosario@mayan-edms.com>
+Date:   Sun Apr 18 04:34:05 2021 -0400
+
+    Disable caching of the autoadmin app template
+    
+    Signed-off-by: Roberto Rosario <roberto.rosario@mayan-edms.com>
