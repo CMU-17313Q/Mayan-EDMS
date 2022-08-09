@@ -2,6 +2,7 @@
     font-family: 'IM Fell English SC';
     font-style: normal;
     font-weight: normal;
+
     src:
         local('IM FELL English SC'),
         local('IM_FELL_English_SC'),
@@ -394,7 +395,7 @@ a i {
 }
 
 .btn-danger.btn-outline {
-    color: #d9534f;
+    color: hsl(2, 64%, 58%);
 }
 
 .btn-default.btn-outline:hover,
@@ -462,7 +463,7 @@ a i {
 #main-menu-button-open {
     background-color: transparent;
     border: 0;
-    border-right: 1px solid #95a5a6;
+    border-right: 1px solid #586768;
     display: block;
     padding: 6px 20px 0px 10px;
     margin: 0 10px 0 -15px;
