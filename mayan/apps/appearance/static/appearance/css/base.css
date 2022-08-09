@@ -11,6 +11,12 @@
         url('../fonts/IM_Fell_English_SC.ttf') format('truetype');
 }
 
+a {
+    color:rgb(79, 2, 15);
+  }
+a:hover {
+     color:rgb(79, 2, 15);
+}
 body {
     padding-top: 60px;
 }
