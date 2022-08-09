@@ -5,6 +5,9 @@
 {% load common_tags %}
 {% load navigation_tags %}
 {% load smart_settings_tags %}
+<style>
+    a {color: #07372e}
+</style>
 
 <div class="row">
     <div class="col-xs-12">
@@ -33,7 +36,7 @@
                                             <th>
                                                 <span style="white-space: nowrap">
                                                     {% if source_column.is_sortable %}
-                                                        <a href="{% navigation_get_sort_field_querystring column=source_column %}">{{ source_column.label }}</a>
+                                                        <a href="{% navigation_get_sort_field_querystring column=source_column %}" style = "color: #07372e">{{ source_column.label }}</a>
                                                             {% navigation_source_column_get_sort_icon column=source_column as icon_sort %}
                                                             {% if icon_sort %}
                                                                 <span class="appearance-list-column-sort-icon">
@@ -41,7 +44,7 @@
                                                                 </span>
                                                             {% endif %}
                                                     {% else %}
-                                                        <span class="appearance-list-column-label">{{ source_column.label }}</span>
+                                                        <span class="appearance-list-column-label" style = "color: #07372e">{{ source_column.label }}</span>
                                                     {% endif %}
                                                     {% include 'appearance/partials/column_help_text.html' %}
                                                 </span>
@@ -55,7 +58,7 @@
                                             <th>
                                                 <span style="white-space: nowrap">
                                                     {% if source_column.is_sortable %}
-                                                        <a href="{% navigation_get_sort_field_querystring column=source_column %}">{{ source_column.label }}</a>
+                                                        <a href="{% navigation_get_sort_field_querystring column=source_column %}" style = "color: #07372e">{{ source_column.label }}</a>
                                                             {% navigation_source_column_get_sort_icon column=source_column as icon_sort %}
                                                             {% if icon_sort %}
                                                                 <span class="appearance-list-column-sort-icon">
@@ -63,7 +66,7 @@
                                                                 </span>
                                                             {% endif %}
                                                     {% else %}
-                                                        <span class="appearance-list-column-label">{{ source_column.label }}</span>
+                                                        <span class="appearance-list-column-label" style = "color: #07372e">{{ source_column.label }}</span>
                                                     {% endif %}
                                                     {% include 'appearance/partials/column_help_text.html' %}
                                                 </span>
@@ -81,23 +84,25 @@
                                 </tr>
                             {% endif %}
                         </thead>
-                        <tbody>
+                        <tbody style = "color: #07372e">
                             {% for object in object_list %}
-                                <tr>
+                                <tr style = "color: #07372e">
                                     {% if links_multi_menus_results %}
                                         <td>
-                                            <input class="form-multi-object-action-checkbox check-all-slave checkbox" name="pk_{{ object.pk }}" type="checkbox" value="" />
+                                            <input class="form-multi-object-action-checkbox check-all-slave checkbox" name="pk_{{ object.pk }}" type="checkbox" value="" style = "color: #07372e" />
                                         </td>
                                     {% endif %}
 
                                     {% if not hide_object %}
-                                        <td>{% if not hide_link %}<a href="{{ object.get_absolute_url }}">{{ object }}</a>{% else %}{{ object }}{% endif %}</td>
+                                        <td>{% if not hide_link %}<a href="{{ object.get_absolute_url }}" style = "color: #07372e;">{{ object }}</a>{% else %}{{ object }}{% endif %}</td>
                                     {% else %}
                                         {% navigation_get_source_columns source=object only_identifier=True as source_column %}
                                         {% if source_column %}
                                             {% navigation_source_column_resolve column=source_column as column_value %}
-                                            <td>
-                                                {{ column_value }}
+                                            <td style = "color: #07372e">
+                                                <div style = "color: #07372e">
+                                                    {{ column_value }}</div>
+                
                                             </td>
                                         {% endif %}
                                     {% endif %}
@@ -106,7 +111,7 @@
                                         {% navigation_get_source_columns source=object exclude_identifier=True as source_columns %}
                                         {% for column in source_columns %}
                                             <td>
-                                                <div class="{{ table_cell_container_classes }} {{ column.html_extra_classes }}">
+                                                <div class="{{ table_cell_container_classes }} {{ column.html_extra_classes }}" style = "color: #07372e">
                                                     {% navigation_source_column_resolve column=column as column_value %}{{ column_value }}
                                                     {# Use explicit 'as column_value ' to force date rendering #}
                                                 </div>
