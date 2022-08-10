@@ -59,11 +59,15 @@
             </div>
 
             {% if facet_menus_link_results %}
+        
                 <div id="sidebar">
                     <div class="list-group">
+                        <ol>
                         {% for menu_link_result in facet_menus_link_results %}
                             {% if facet_menus_link_results|length > 1 %}
+                           
                                 {% if menu_link_result.menu.name not in 'facet,list facet'|split:"," %}
+                            
                                     <li class="dropdown-header">{{ menu_link_result.menu.label }}</li>
                                 {% else %}
                                     {% ifchanged menu_link_result.link_groups.0.object %}
@@ -72,9 +76,13 @@
                                     {% endifchanged %}
                                 {% endif %}
                             {% else %}
-                                {% if menu_link_result.menu.name not in 'facet,list facet'|split:"," %}
-                                    <li class="dropdown-header">{{ menu_link_result.menu.label }}</li>
+                            {% if menu_link_result.menu.name not in 'facet,list facet'|split:"," %}
+                            <li class="dropdown-header">{{ menu_link_result.menu.label }}</li>
+
+
                                 {% endif %}
+
+                            </ol>
                             {% endif %}
                             {% for link_group in menu_link_result.link_groups %}
                                 {% with link_group.links as object_navigation_links %}
@@ -88,6 +96,7 @@
                                 {% endwith %}
                             {% endfor %}
                         {% endfor %}
+
                     </div>
                 </div>
             {% endif %}
