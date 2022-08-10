@@ -13,6 +13,7 @@ import mayan
 PACKAGE_NAME = 'mayan-edms'
 PACKAGE_DIR = 'mayan'
 
+# Hello World
 if sys.argv[-1] == 'publish':
     os.system('python setup.py sdist upload')
     sys.exit()
