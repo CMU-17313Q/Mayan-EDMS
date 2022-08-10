@@ -1,6 +1,19 @@
 {% load i18n %}
 {% load static %}
 
+<style>
+    .btn-default{color: #ffffff;
+    background-color: #011a1e;
+    border-color: #95a5a6;
+}
+.help-block {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #0e1114;
+}
+</style>
+
 {% if title %}
 <h4>
     {{ title }}
@@ -83,7 +96,7 @@
                         {% if submit_label %}{{ submit_label }}{% else %}{% if form.instance %}{% trans 'Save' %}{% else %}{% trans 'Submit' %}{% endif %}{% endif %}
                     </button>
                     {% if previous %}
-                          &nbsp;<a class="btn btn-default" onclick='history.back();'>
+                          &nbsp;<a class="btn btn-default"  href="#" onclick='history.back();'>
                             <i class="fa fa-times"></i> {% if cancel_label %}{{ cancel_label }}{% else %}{% trans 'Cancel' %}{% endif %}
                           </a>
                     {% endif %}

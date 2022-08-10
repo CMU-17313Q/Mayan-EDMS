@@ -134,6 +134,8 @@ INSTALLED_APPS = (
 )
 
 MIDDLEWARE = (
+    'django.middleware.gzip.GZipMiddleware',
+    # 'django.middleware.brotli.BrotliMiddleware',
     'mayan.apps.logging.middleware.error_logging.ErrorLoggingMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
@@ -149,6 +151,7 @@ MIDDLEWARE = (
     'mayan.apps.locales.middleware.timezone.TimezoneMiddleware',
     'stronghold.middleware.LoginRequiredMiddleware',
     'mayan.apps.common.middleware.ajax_redirect.AjaxRedirect'
+    
 )
 
 ROOT_URLCONF = 'mayan.urls'
