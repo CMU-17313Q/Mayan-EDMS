@@ -649,3 +649,7 @@ a i {
     padding-left: 0px;
     padding-right: 0px;
 }
+
+a.pull-right {
+    color:#1c2733;
+}
