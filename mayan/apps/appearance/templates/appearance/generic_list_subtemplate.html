@@ -86,7 +86,7 @@
                                 <tr>
                                     {% if links_multi_menus_results %}
                                         <td>
-                                            <input class="form-multi-object-action-checkbox check-all-slave checkbox" name="pk_{{ object.pk }}" type="checkbox" value="" />
+                                            <input class="form-multi-object-action-checkbox check-all-slave checkbox" id="pk_{{ object.pk }}" name="pk_{{ object.pk }}" type="checkbox" value="" />
                                         </td>
                                     {% endif %}
 
@@ -97,7 +97,8 @@
                                         {% if source_column %}
                                             {% navigation_source_column_resolve column=source_column as column_value %}
                                             <td>
-                                                {{ column_value }}
+                                                <label for="pk_{{ object.pk }}">{{ column_value }}</label>
+                                                
                                             </td>
                                         {% endif %}
                                     {% endif %}
