@@ -9,6 +9,7 @@
         url('../fonts/IM_Fell_English_SC.woff') format('woff'),
         url('../fonts/IM_Fell_English_SC.svg#IMFellEnglishSC') format('svg'),
         url('../fonts/IM_Fell_English_SC.ttf') format('truetype');
+    font-display: swap;
 }
 
 body {
