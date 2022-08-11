@@ -8,7 +8,7 @@
 <hr>
 {% endif %}
 
-<div class="well">
+<div style="background-color: rgb(225, 198, 153);" class="well">
     {% if form.is_multipart %}
         <form action="{{ form_action }}" class="{{ form_css_classes|default:'' }}" enctype="multipart/form-data" method="{{ submit_method|default:'post' }}" name="{{ form.prefix|default:'' }}" target="{{ submit_target|default:'_self' }}">
     {% else %}
@@ -83,7 +83,7 @@
                         {% if submit_label %}{{ submit_label }}{% else %}{% if form.instance %}{% trans 'Save' %}{% else %}{% trans 'Submit' %}{% endif %}{% endif %}
                     </button>
                     {% if previous %}
-                          &nbsp;<a class="btn btn-default" onclick='history.back();'>
+                          &nbsp;<a style="background-color: blue;" class="btn btn-default" onclick='history.back();'>
                             <i class="fa fa-times"></i> {% if cancel_label %}{{ cancel_label }}{% else %}{% trans 'Cancel' %}{% endif %}
                           </a>
                     {% endif %}
